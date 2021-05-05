@@ -59,8 +59,7 @@ GET requests will fetch all users from the database:
     "lastname": "bar",
     "email": "admin@company.com",
     "role_id": 1
-  },
-  ...
+  }
 ]
 ```
 
