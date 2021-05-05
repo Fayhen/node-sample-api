@@ -1,0 +1,20 @@
+{
+  "name": "node-sample-api",
+  "version": "1.0.0",
+  "description": "Simple study in Node development",
+  "main": "index.js",
+  "repository": "git@github.com:Fayhen/node-sample-api.git",
+  "author": "Diego Garcia Cordeiro Souza",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.95.4",
+    "mysql2": "^2.2.5"
+  },
+  "scripts": {
+    "sayhello": "echo 'oh hi'",
+    "tables": "npx knex migrate:latest",
+    "dummydata": "npx knex seed:run",
+    "serve": "node src/server.js"
+  }
+}
